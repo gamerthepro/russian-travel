@@ -1,0 +1,10 @@
+.cover__background {
+	max-width: 1184px;
+	max-height: 740px;
+	opacity: 0.5;
+	transition: .5s linear;
+}
+
+.cover__background:hover {
+	opacity: 0.2;
+}

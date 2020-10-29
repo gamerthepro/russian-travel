@@ -1,0 +1,7 @@
+.foter__links {
+	display: grid;
+	grid-auto-flow: column;
+	justify-items: start;
+	list-style-type: none;
+	padding: 0;
+}

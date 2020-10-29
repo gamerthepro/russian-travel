@@ -1,0 +1,10 @@
+.place {	
+	display: grid;
+	grid-template: auto 1fr /  minmax(216px, 460px) minmax(288px, 484px);
+	gap: 40px;
+	padding-bottom: 80px;
+}
+
+.place:last-of-type {
+	padding-bottom: 0;
+}

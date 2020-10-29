@@ -1,0 +1,7 @@
+.cover {
+	display: flex;
+	position: relative;
+	justify-items: center;
+	align-items: center;
+	background: #2A2C2F;
+}

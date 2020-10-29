@@ -1,0 +1,9 @@
+.root {
+display: grid;
+grid-template-columns: minmax(auto, 1280px);
+grid-template-rows: max-content 1fr max-content;
+grid-template-areas:
+"header"
+"content"
+"footer";
+}

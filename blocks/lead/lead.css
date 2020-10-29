@@ -1,0 +1,7 @@
+.lead {
+	display: grid;
+	align-items: center;
+	max-width: 984px;
+	min-height: 1005px;
+	padding: 0 148PX;
+}
