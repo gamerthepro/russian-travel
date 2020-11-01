@@ -1,6 +1,0 @@
-.footer {
-	display: grid;
-	grid-area: footer;	
-	grid-template-columns: 1fr 1fr;
-	padding-top: 92px;
-}

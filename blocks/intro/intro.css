@@ -7,3 +7,23 @@
 	padding-left: 148px;
 }
 
+@media screen and (max-width: 1024px) {
+	.intro {
+		padding-left: 48px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.intro {
+		max-width: 720px;
+		padding-left: 24px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.intro {
+		max-width: 288px;
+		min-height: 754px;
+		padding: 16px;
+	}
+}

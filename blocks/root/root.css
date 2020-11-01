@@ -1,9 +1,8 @@
 .root {
-display: grid;
-grid-template-columns: minmax(auto, 1280px);
-grid-template-rows: max-content 1fr max-content;
-grid-template-areas:
-"header"
-"content"
-"footer";
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	max-width: 1184px;
+	min-width: 320px;
+	width: 100%;
 }

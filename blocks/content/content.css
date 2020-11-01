@@ -1,6 +1,22 @@
 .content {
 	display: flex;
 	flex-direction: column;
+	align-self: center;
 	align-items: center;
-	max-width: 1280px;
+	max-width: 1184px;
+	padding: 0 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.content {
+		max-width: 1024px;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		max-width: 100%;
+		padding: 0;
+	}
 }

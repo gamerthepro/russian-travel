@@ -1,10 +1,30 @@
 .header {
-	display: grid;
-	grid-template-columns: 1fr min-content min-content;
-	grid-area: header;
-	width: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-self: center;
 	width: 1184px;
-	height: 52px;
-	left: 48px;
-	top: 28px;
+	max-height: 52px;
+	padding: 28px 48px 56px;
+}
+
+@media screen and (max-width: 1024px) {
+	.header {
+		max-width: 928px;
+		padding: 28px 48px 48px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		max-width: 720px;
+		padding: 28px 24px 48px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.header {
+		max-width: 288px;
+		padding: 16px 16px 48px;
+	}
 }
