@@ -1,7 +1,18 @@
 .header__land-link {
-	margin-right: 18px;
+	line-height: 1.17;
+	font-size: 24px;
+	color: #FFFFFF;
+	opacity: 1;
+	transition: opacity 0.5s linear;
 }
 
-.header__land-link:last-of-type {
-	margin-right: 0;
-}
+.header__land-link:hover {
+	opacity: 0.5;
+	}
+	
+	@media screen and (max-width: 567px) {
+		.header__land-link {
+		line-height: 1.33;
+		font-size: 18px;
+		}
+	}
