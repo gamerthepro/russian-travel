@@ -3,7 +3,7 @@
 @import url('../blocks/root/root.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
-@import url('../blocks/header/__ladnd-links/header__ladnd-links.css');
+@import url('../blocks/header/__land-links/header__land-links.css');
 @import url('../blocks/header/__land-link/header__land-link.css');
 @import url('../blocks/header/__land-link/_ru/header__land-link_ru.css');
 @import url('../blocks/header/__land-link/_en/header__land-link_en.css');
@@ -39,5 +39,4 @@
 @import url('../blocks/footer/__link-item/footer__link-item.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
 @import url('../fonts/inter.css');

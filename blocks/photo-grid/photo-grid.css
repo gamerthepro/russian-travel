@@ -5,9 +5,9 @@
 	grid-template-rows: repeat(3, 213px);
 	gap: 16px;
 	padding: 0 0 92px;
- }
+}
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.photo-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);

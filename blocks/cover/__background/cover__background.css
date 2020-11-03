@@ -43,6 +43,7 @@
 
 @media screen and (max-width: 567px) {
    .cover__background {
+		justify-content: start;
       height: 200px;
    }
 }

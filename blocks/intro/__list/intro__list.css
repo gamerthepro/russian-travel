@@ -5,8 +5,20 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 12px;
-	line-height: 18px;
+	line-height: 124%;
 	color: #FFFFFF;
 	padding: 0px;
-	margin: 32px 0px 92px;
+	margin: 33px 0px 92px;
+}
+
+@media screen and (max-width: 768px) {
+	.intro__list {
+		margin: 33px 0px 88px;
+	}
+}
+
+@media screen and (max-width: 567px) {
+	.intro__list {
+		margin: 34px 0px 64px;
+	}
 }
