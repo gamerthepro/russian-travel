@@ -1,5 +1,5 @@
 .photo-grid {
-	min-height: 671px;
+   align-self: center;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 213px);

@@ -8,7 +8,7 @@
    "title website"
    "image paragraphs";
 	padding-bottom: 80px;
-	max-width: 100%;
+	width: 100%;
 }
 
 .place:last-child {
