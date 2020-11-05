@@ -7,7 +7,7 @@
 @import url('../blocks/header/__land-links/header__land-links.css');
 @import url('../blocks/header/__list-item/header__list-item.css');
 @import url('../blocks/header/__land-link/header__land-link.css');
-@import url('../blocks/header/__land-link/_ru/header__land-link_ru.css');
+@import url('../blocks/header/__land-link/_active/header__land-link_active.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
