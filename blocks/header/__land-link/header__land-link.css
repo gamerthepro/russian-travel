@@ -11,7 +11,7 @@
 	opacity: 0.5;
 	}
 	
-	@media screen and (max-width: 567px) {
+	@media screen and (max-width: 767px) {
 		.header__land-link {
 		line-height: 1.33;
 		font-size: 18px;

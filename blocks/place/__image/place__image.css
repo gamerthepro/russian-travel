@@ -5,19 +5,19 @@
 	max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1179px) {
 	.place__image {
 		min-height: 440px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 	.place__image {
 		min-height: 340px;
 	}
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
 	.place__image {
 		min-height: 320px;
 		margin-bottom: 32px;

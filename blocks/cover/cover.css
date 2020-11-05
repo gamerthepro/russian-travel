@@ -5,20 +5,20 @@
    margin: 0 0 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1179px) {
    .cover {
       min-height: 640px;
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
    .cover {
 		min-height: 480px;
       margin: 0 0 88px;
    }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
    .cover {
 		min-height: 200px;
       margin: 0 0 64px;
