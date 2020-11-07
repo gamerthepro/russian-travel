@@ -22,5 +22,6 @@
 		line-height: 35px;
 		max-width: 288px;
 		margin: 0 16px 32px;
+		white-space: normal;
 	}
 }
