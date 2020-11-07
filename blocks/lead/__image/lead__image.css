@@ -6,14 +6,20 @@
 
 @media screen and (max-width: 1179px) {
 	.lead__image {
+		min-height: 580px;
 		margin: 56px auto 0px;
 	}
 }
 
-
+@media screen and (max-width: 480px) {
+	.lead__image {
+		min-height: 580px;
+	}
+}
 
 @media screen and (max-width: 767px) {
 	.lead__image {
+		min-height: 200px;
 		margin: 40px auto 0px;
 	}
 }
